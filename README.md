@@ -1,5 +1,7 @@
-# **Editor**
-**Name:** Clarissa McCloud
-**Date:** Thurs. January 30th, 2025
+# **TEAM NAMES**
+
+## **Name 1** 
+- Clarissa McCloud
+
 
 
