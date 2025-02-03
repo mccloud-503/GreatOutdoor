@@ -1,35 +1,3 @@
-Assignment: Assignment 4: Website Kickoff
-Due Date: February 6th @ 11:59 PM PST
-Team Members:   
- Clayton Smith
- Daniel Stewart
- Md-Shezanul Haque (Shezan)
- Clarissa McCloud
-What is a Team Charter? (copied from Canvas)
-Teamwork is essential, but it can be challenging when team members aren’t physically together. That’s where a team charter comes in.
-A team charter is a document that clearly outlines the roles, responsibilities, and expectations for each team member. It helps create structure and keeps everyone on the same page, making collaboration smoother and more effective.
-Creating a team charter involves two steps:
-Brainstorming – Gather input from everyone on the team.
-Consolidating – Combine everyone’s ideas into a set of agreed-upon rules and guidelines.
-Why a Team Charter is Important
-A clear, shared vision which helps the team work toward common goals
-Defined roles and responsibilities to clarify who does what.
-It improves communication which encourages open and efficient communication.
-It establishes clear goals and milestones to keep everyone focused on what needs to be achieved.
-Builds trust and collaboration among team members.
-
-TASK LIST
-In class, interview the instructor (acting as the client) to gather detailed requirements. Use open-ended questions to thoroughly understand their needs, objectives, and expectations for the project. (DONE)
-
-Brainstorm - gather input from everyone on the team (TO-DO)
-Consolidating - combine ideas into a set of agreed upon rules/deadlines (TO-DO)
-Develop a Team Charter that outlines roles, responsibilities, goals, communication protocols, and project timelines. Ensure the charter aligns with the client’s requirements and sets clear expectations for the team.  (TO-DO)
-Fork the Project Repository (DONE)
-Submit the assignment  (TO-DO)
-The Team Charter must be saved as TeamCharter.md.
-Store the TeamCharter.md File in Your Repository
-Place the TeamCharter.md file in the same directory as your README.md file
-
 Team Charter
 Project Overview
     Project Name: Great Outdoors Website
