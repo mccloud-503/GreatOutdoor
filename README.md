@@ -1,5 +1,6 @@
 # **Editor**
 **Name:** Clarissa McCloud
-**Date:** Thurs. January 30th, 2025
+          Clayton Smith
+**Date:** SUN. February 2nd, 2025
 
 
