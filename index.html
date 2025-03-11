@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Welcome to the Great Outdoors!</title>
-<link rel="stylesheet" type="text/css" href="styles/toplevel.css">
-<script src="scripts/myscripts.js"></script>
+    <meta charset="UTF-8"> <!-- Sets character encoding for special characters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive on mobile -->
+    <title>Great Outdoors</title> <!-- Title displayed in the browser tab -->
 
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="styles/toplevel.css"> 
+
+    <!-- Link to external JavaScript file (defer ensures it loads after HTML) -->
+    <script src="scripts/myscripts.js" defer></script>
 </head>
-
 <body>
 
-<h1>Welcome to the Great Outdoors!</h1>
+    <!-- Vertical Navigation Menu (Shows links to different pages) -->
+    <div class="tab">
+        <button onclick="location.href='index.html'">Home</button>
+        <button onclick="location.href='mountain.html'">Climb the Mountain</button>
+        <button onclick="location.href='forest.html'">Wander the Forest</button>
+        <button onclick="location.href='falls.html'">See the Falls</button>
+        <button onclick="location.href='ferry.html'">Ride the Ferry</button>
+        <button onclick="location.href='lake.html'">Walk Around the Lake</button>
+        <button onclick="location.href='park.html'">Read in the Park</button>
+    </div>
 
+    <!-- Main Content Section (Contains page content) -->
+    <div class="content">
+        <h1>Welcome to the Great Outdoors!</h1> <!-- Main heading -->
+        
+        <!-- Image with hover effect to display alt text -->
+        <img src="images/outdoors.jpg" alt="Great Outdoors">
+        
+        <figcaption>Your Adventure Awaits!</figcaption> <!-- Page description -->
 
-<img src = "images/outdoors.jpg" alt="Great Outdoors" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
-<figcaption>Your Adventure Awaits!</figcaption>
-
-<p id="alttext" style="font-size:50px"> <p>
-
-<ul>
-<li><a href="mountain.html">Climb the Mountain</a></li>
-<li><a href="forest.html">Wander the Forest</a></li>
-<li><a href="falls.html">See the Falls</a></li>
-<li><a href="ferry.html">Ride the Ferry</a></li>
-<li><a href="lake.html">Walk Around the Lake</a></li>
-<li><a href="park.html">Read in the Park</a></li>
-</ul>
+        <!-- Placeholder for hover text effect -->
+         <p id="alttext" style="font-size:50px; text-align: center;"></p>
+    </div>
 
 </body>
 </html>

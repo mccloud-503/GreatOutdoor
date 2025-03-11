@@ -1,22 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Welcome to the Great Outdoors!</title>
-<link rel="stylesheet" type="text/css" href="styles/branchlevel.css">
-<script src="scripts/myscripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride the Ferry</title>
+
+    <!-- Link to CSS for styling -->
+    <link rel="stylesheet" href="styles/branchlevel.css">
+
+    <!-- Link to JavaScript for functionality -->
+    <script src="scripts/myscripts.js" defer></script>
 </head>
 <body>
 
-<h1>A Ferry Expedition</h1>
+    <!-- Navigation Menu -->
+    <div class="tab">
+        <button onclick="location.href='index.html'">Home</button>
+        <button onclick="location.href='mountain.html'">Climb the Mountain</button>
+        <button onclick="location.href='forest.html'">Wander the Forest</button>
+        <button onclick="location.href='falls.html'">See the Falls</button>
+        <button onclick="location.href='ferry.html'">Ride the Ferry</button>
+        <button onclick="location.href='lake.html'">Walk Around the Lake</button>
+        <button onclick="location.href='park.html'">Read in the Park</button>
+    </div>
 
-<img src = "images/ferry.jpg" alt="ferry" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
-<figcaption>Underway</figcaption>
+    <!-- Main Content -->
+    <div class="content">
+        <h1>Ride the Ferry</h1>
 
-<p id="alttext" style="font-size:50px"> <p>
+        <!-- Image with hover effect -->
+        <img src="images/ferry.jpg" alt="Ferry">
+        
+        <figcaption>Underway!</figcaption>
 
-<ul>
-<li><a href="index.html">Table of Contents</a></li>
-</ul>
+        <!-- Placeholder for hover text -->
+        <p id="alttext" style="font-size:50px; text-align: center;"></p>
+    </div>
 
 </body>
 </html>

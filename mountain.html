@@ -1,22 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Welcome to the Great Outdoors!</title>
-<link rel="stylesheet" type="text/css" href="styles/branchlevel.css">
-<script src="scripts/myscripts.js"></script>
+    <meta charset="UTF-8"> <!-- Ensures correct character encoding for text -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive for mobile devices -->
+    <title>Climb the Mountain</title> <!-- Title that appears in the browser tab -->
+
+    <!-- Link to external CSS file for styles -->
+    <link rel="stylesheet" href="styles/branchlevel.css">
+
+    <!-- Link to external JavaScript file (defer ensures it loads after HTML) -->
+    <script src="scripts/myscripts.js" defer></script>
 </head>
 <body>
 
-<h1>Climb the Mountain!</h1>
+    <!-- Vertical Navigation Menu -->
+    <div class="tab">
+        <button onclick="location.href='index.html'">Home</button>
+        <button onclick="location.href='mountain.html'">Climb the Mountain</button>
+        <button onclick="location.href='forest.html'">Wander the Forest</button>
+        <button onclick="location.href='falls.html'">See the Falls</button>
+        <button onclick="location.href='ferry.html'">Ride the Ferry</button>
+        <button onclick="location.href='lake.html'">Walk Around the Lake</button>
+        <button onclick="location.href='park.html'">Read in the Park</button>
+    </div>
 
-<img src = "images/mountain.jpg" alt="Mount Rainier" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
-<figcaption>Rope Up!</figcaption>
+    <!-- Main Content Section -->
+    <div class="content">
+        <h1>Climb the Mountain</h1> <!-- Page heading -->
 
-<p id="alttext" style="font-size:50px"> <p>
+        <!-- Image with hover effect to display alt text -->
+        <img src="images/mountain.jpg" alt="Mount Rainier">
 
-<ul>
-<li><a href="index.html">Table of Contents</a></li>
-</ul>
+        <figcaption>Rope up!</figcaption> <!-- Short description about the page content -->
+
+        <!-- Placeholder for hover text effect -->
+        <p id="alttext" style="font-size:50px; text-align: center;"></p>
+    </div>
 
 </body>
 </html>
