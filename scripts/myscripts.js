@@ -1,6 +1,6 @@
 // Wait until the page is fully loaded before running the script
 document.addEventListener("DOMContentLoaded", function() {
-    
+
     // Function to highlight the active tab when clicked
     function setActiveTab() {
         var currentPage = window.location.pathname.split('/').pop(); // Get the current filename
@@ -18,14 +18,26 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Function to show image alt text on hover
+    // Function to show image alt text centered on the image
     function showAlt(event) {
-        document.getElementById("alttext").innerHTML = event.target.alt;
+        let text = document.getElementById("alttext");
+        text.innerHTML = event.target.alt; // Display the image alt text
+        text.style.display = "block";
+
+        // Get image position and dimensions
+        let imgRect = event.target.getBoundingClientRect();
+
+        // Position the text in the center of the image
+        text.style.position = "absolute";
+        text.style.top = (window.scrollY + imgRect.top + (imgRect.height / 2) - (text.offsetHeight / 2)) + "px"; // Center vertically
+        text.style.left = (window.scrollX + imgRect.left + (imgRect.width / 2) - (text.offsetWidth / 2)) + "px"; // Center horizontally
     }
 
     // Function to hide image alt text when not hovering
     function hideAlt() {
-        document.getElementById("alttext").innerHTML = "";
+        let text = document.getElementById("alttext");
+        text.innerHTML = "";
+        text.style.display = "none";
     }
 
     // Apply hover effects to all images
